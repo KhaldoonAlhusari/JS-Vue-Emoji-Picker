@@ -35,8 +35,8 @@ export default {
   name: "App",
   data() {
     return {
-      apiKey: "6634995d82d170176492e2d28116355bc9629abc",
-      baseUrl: "https://emoji-api.com/emojis",
+      apiKey: "",
+      baseUrl: "",//get key from https://emoji-api.com/
       query: "",
       emojis: {},
       emojiCharacters: [],
